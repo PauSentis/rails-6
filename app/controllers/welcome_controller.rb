@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
-  HOLA_FORM_CONTROLLER = Constants::HOLA
+  HOLA_FROM_CONTROLLER = Constants::HOLA
 
   def index
-    @message=HOLA_FORM_CONTROLLER
+    @message=HOLA_FROM_CONTROLLER
   end
 end
