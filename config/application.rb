@@ -31,5 +31,8 @@ module Railsondocker
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.autoload_paths << config.root.join('lib_autoload')
+    config.eager_load_paths << config.root.join('lib_autoload')
   end
 end
